@@ -37,3 +37,18 @@
 # print(sentence[0])
 # print(sentence[3])
 # print(sentence[0:4])
+
+
+sent = "Jake"
+age = " is 15 years old"
+print(sent + age)
+
+sent = "%s is 15 years old"
+print(sent%("Eric"))
+
+sent = "%s is the President of the US and is %d years old"
+print(sent%("Donald Trump", 60))
+
+
+
+
