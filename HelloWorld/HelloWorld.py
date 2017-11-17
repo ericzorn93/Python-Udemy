@@ -39,16 +39,36 @@
 # print(sentence[0:4])
 
 
-sent = "Jake"
-age = " is 15 years old"
-print(sent + age)
-
-sent = "%s is 15 years old"
-print(sent%("Eric"))
-
-sent = "%s is the President of the US and is %d years old"
-print(sent%("Donald Trump", 60))
-
-
+# sent = "Jake"
+# age = " is 15 years old"
+# print(sent + age)
+#
+# sent = "%s is 15 years old"
+# print(sent%("Eric"))
+#
+# sent = "%s is the President of the US and is %d years old"
+# print(sent%("Donald Trump", 60))
 
 
+
+shopList = ["Apples", "Oranges", "Bananas", "Cheese"]
+shopList[0]
+shopList[1]
+shopList[2]
+print(shopList[0:2])
+shopList.append("Blueberries")
+print(shopList)
+shopList[0] = "Cherries"
+print(shopList)
+del shopList[1]
+print(shopList)
+len(shopList) #length of Shoplist
+
+shopList2 = ["Bread", "Jam", "Peanut Butter"]
+print(shopList + shopList2)
+shopList * 2 #Repeats the Array
+
+
+listNum = [1, 4, 7, 23, 6]
+max(listNum) #Takes the largest value from the array
+min(listNum) #Takes the smallest value from the array
