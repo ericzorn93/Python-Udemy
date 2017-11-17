@@ -51,24 +51,36 @@
 
 
 
-shopList = ["Apples", "Oranges", "Bananas", "Cheese"]
-shopList[0]
-shopList[1]
-shopList[2]
-print(shopList[0:2])
-shopList.append("Blueberries")
-print(shopList)
-shopList[0] = "Cherries"
-print(shopList)
-del shopList[1]
-print(shopList)
-len(shopList) #length of Shoplist
+# shopList = ["Apples", "Oranges", "Bananas", "Cheese"]
+# shopList[0]
+# shopList[1]
+# shopList[2]
+# print(shopList[0:2])
+# shopList.append("Blueberries")
+# print(shopList)
+# shopList[0] = "Cherries"
+# print(shopList)
+# del shopList[1]
+# print(shopList)
+# len(shopList) #length of Shoplist
+#
+# shopList2 = ["Bread", "Jam", "Peanut Butter"]
+# print(shopList + shopList2)
+# shopList * 2 #Repeats the Array
+#
+#
+# listNum = [1, 4, 7, 23, 6]
+# max(listNum) #Takes the largest value from the array
+# min(listNum) #Takes the smallest value from the array
 
-shopList2 = ["Bread", "Jam", "Peanut Butter"]
-print(shopList + shopList2)
-shopList * 2 #Repeats the Array
 
 
-listNum = [1, 4, 7, 23, 6]
-max(listNum) #Takes the largest value from the array
-min(listNum) #Takes the smallest value from the array
+students = {"Bob":12, "Rachel":13, "Emily":15} #Creating Objects/Dictionaries
+print(students["Rachel"])
+print(students["Bob"])
+students["Rachel"] = 15
+del students["Emily"]
+print(students)
+len(students) #Amount of items in object/dictionary
+students = {"Bob":12, "Bob":14, "Bob":16} #Too many keys with the same name
+print(students)
