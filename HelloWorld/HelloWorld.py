@@ -75,12 +75,12 @@
 
 
 
-students = {"Bob":12, "Rachel":13, "Emily":15} #Creating Objects/Dictionaries
-print(students["Rachel"])
-print(students["Bob"])
-students["Rachel"] = 15
-del students["Emily"]
-print(students)
-len(students) #Amount of items in object/dictionary
-students = {"Bob":12, "Bob":14, "Bob":16} #Too many keys with the same name
-print(students)
+# students = {"Bob":12, "Rachel":13, "Emily":15} #Creating Objects/Dictionaries
+# print(students["Rachel"])
+# print(students["Bob"])
+# students["Rachel"] = 15
+# del students["Emily"]
+# print(students)
+# len(students) #Amount of items in object/dictionary
+# students = {"Bob":12, "Bob":14, "Bob":16} #Too many keys with the same name
+# print(students)
